@@ -1,5 +1,5 @@
 name:               packcheck
-version:            0.5.1
+version:            0.6.0
 synopsis:           Universal build and CI testing for Haskell packages
 description:
   This package contains a universal CI/build script @packcheck.sh@ and config
@@ -51,7 +51,7 @@ extra-source-files:
     .github/workflows/packcheck.yml
     appveyor.yml
     cabal.project.coveralls
-    cabal.project.ci
+    cabal.project
     packcheck.sh
     packcheck-safe.sh
     packcheck-remote.sh

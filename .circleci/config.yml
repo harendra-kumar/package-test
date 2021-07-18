@@ -1,4 +1,4 @@
-# packcheck-0.5.1
+# packcheck-0.6.0
 # You can use any of the options supported by packcheck as environment
 # variables here.  See https://github.com/composewell/packcheck for all
 # options and their explanation.
@@ -37,12 +37,14 @@ env: &env
       #STACKVER: "1.6.5"
       #STACK_UPGRADE: "y"
       #RESOLVER: "lts-12"
+      STACK_YAML: "stack.yaml"
 
       # ------------------------------------------------------------------------
       # cabal options
       # ------------------------------------------------------------------------
       CABAL_CHECK_RELAX: "y"
       CABAL_HACKAGE_MIRROR: "hackage.haskell.org:http://hackage.fpcomplete.com"
+      CABAL_PROJECT: "cabal.project"
 
       # ------------------------------------------------------------------------
       # Where to find the required tools
